@@ -1,6 +1,6 @@
 'use strict'
 
-$.get('/day1.md').then(data => {
+$.get('/md/20160908.md').then(data => {
   var md = window.markdownit();
   var result = md.render(data);
 
