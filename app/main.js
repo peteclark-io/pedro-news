@@ -9,5 +9,5 @@ var last = 'md/20160908.md';
 
 ReactDOM.render(
    <PedroNews latest={latest} last={last} />,
-   document.getElementById('markdown')
+   document.getElementById('react')
 );
